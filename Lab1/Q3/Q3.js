@@ -16,5 +16,7 @@ let answer = arr => {
     return newArr;
 }
 
+let answer = fruits.map(e => "I like " + e);
+
 //e
 answer(fruits).forEach(element => console.log(element));
